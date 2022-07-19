@@ -1,0 +1,44 @@
+
+
+label{
+ color: rgb(108, 108, 207);
+}
+
+.card-img-tops{
+    
+    border-radius: 50%;
+}
+.first_span, .second_span{
+    background-color: rgb(192, 185, 185);
+    height: 20px;
+    min-width: 100px;
+    width: 100%;
+}
+.first_span{
+   border-bottom-right-radius: 110%;
+   border-top-right-radius:-10%;
+}
+.second_span{
+    border-bottom-left-radius: 110%;
+ }
+
+ .border-section{
+    position: static;
+    top:-100px;
+ }
+//  table{
+//    border: 1px solid;
+//    width: 100%;
+   
+  
+//  }
+
+ bju{
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    min-width: 1200px;
+    padding: 20px 15px;
+    background: #f1f2f7;
+    overflow: hidden;
+ }

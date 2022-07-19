@@ -1,0 +1,96 @@
+.sidebar{
+    width: 230px;
+   position: fixed;
+   top: 0;
+    height: 100%;
+    min-height: 100vh;
+    transition: ease-in-out all .3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(0, 97, 189);
+    padding: 12px 4px;
+
+    .top{
+        width: 100%;
+        text-align: center;
+        padding: 7px 0;
+
+    }
+    hr{
+        
+        border: 1.2px solid rgb(255, 255, 255);
+        
+    }
+
+    .side-item{
+        height: 100%;
+        overflow-y: scroll;
+
+        ul{
+            padding: 12px 2px;
+           
+            li{
+                list-style: none;
+                margin-bottom: 12px;
+                font-weight: 700;
+                font-size: 14px;
+                padding: 5px 10px;
+text-align: left;
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-weight: 500;
+                    
+                    span{
+                        margin-left: 12px;
+                    }
+
+                    i{
+                        color: rgb(255, 255, 255);
+                        font-size: 14px;
+                    }
+                }
+                span{
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                }
+            }
+
+            li:hover{
+                
+                background: rgb(0, 130, 190);
+                color: rgb(255, 255, 255);
+                // text-align: center;
+                border-radius: 20px;
+                
+                a{
+                    color: white;
+                }
+            }
+            li.active{
+                
+                background: rgb(255, 255, 255);
+                color: rgb(1, 41, 116);
+                text-align: center;
+                border-radius: 20px;
+                
+                a{
+                    color: rgb(1, 41, 116);
+                }
+            }
+        }
+    }
+}
+
+.myco {
+    display: block;
+    // background: rgb(238, 213, 213);
+    // border: 1px solid red;
+    margin-top: -10px;
+    border-radius: 6px;
+    ul li{
+       margin: -10px 8px;
+    }
+}
+.hidemyco{
+    display: none;
+}

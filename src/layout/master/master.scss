@@ -1,0 +1,51 @@
+.master {
+
+
+    .tocontainer {
+
+        // border: 1px solid red;
+        display: flex;
+        width: auto;
+        overflow-x: hidden;
+       
+    }
+
+    .header {
+        height: 50px;
+        background-color: white;
+        position: sticky;
+        z-index: 100;
+        right: 0;
+
+        top: 0;
+        left:0;
+        margin-left: 230px;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+}
+
+#content {
+    transition: ease-in-out all .3s;
+    margin-left: 230px;
+    // border: 1px solid red;
+min-height: 91vh;
+    width: 100%;
+
+}
+
+@media screen and (max-width:768px) {
+    .sidebar {
+        display: none;
+    }
+
+
+#header{
+    margin-left: 0px;
+}
+
+    #content {
+        margin-left: 0;
+
+    }
+
+}
